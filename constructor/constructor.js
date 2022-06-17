@@ -6,6 +6,10 @@ function BankAccount(customerName, balance=0){
     this.deposit = function(amount){
         this.balance += amount;
     }
+
+    this.withdraw = (amount) =>{
+        this.balance -= amount;
+    }
 }
 
 // const ramAccount = new BankAccount('ram', 1000);
