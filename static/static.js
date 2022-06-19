@@ -1,3 +1,5 @@
+//static 
+
 class User{
     static password = '342432'
     constructor(name, age){
